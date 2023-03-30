@@ -24,8 +24,9 @@ const SingleBlogs = ({ blog }) => {
                         <FontAwesomeIcon icon={faBookmark} />
                     </div>
                 </div>
-                <h1></h1>
-                 
+                <h1 className=' text-4xl font-bold mt-4'>{blog.title}</h1>
+                 <p className=' text-gray-500'>#{blog.tags[0]}  #{blog.tags[1]}</p>
+                 <a className='  text-purple-600' href="Mark"><u>Mark as read</u></a>
             </div>
         </div>
     );

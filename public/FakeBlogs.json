@@ -25,7 +25,8 @@
        "read_time": "5 minutes",
        "publish_date": "March 8,2023 (24 Days ago)",
        "tags": [
-          "virtual reality"
+          "virtual reality",
+          "artificial intelligence"
        ]
     },
     {
@@ -39,7 +40,8 @@
        "read_time": "8 minutes",
        "publish_date": "February 25 (34 Days ago)",
        "tags": [
-          "virtual reality"
+          "machine learning",
+          "programming"
        ]
     },
     {
@@ -53,7 +55,8 @@
        "read_time": "6 minutes",
        "publish_date": "January 19 (2 Month ago)",
        "tags": [
-          "virtual reality"
+          "software",
+          "programming"
        ]
     }
  ]
