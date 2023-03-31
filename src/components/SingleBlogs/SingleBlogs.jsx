@@ -5,10 +5,10 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 
 
-const SingleBlogs = ({ blog }) => {
+const SingleBlogs = ({ blog ,addToSideBar}) => {
     console.log(blog)
     return (
-        <div className="card w-full bg-base-100 shadow-xl">
+        <div className="card w-full bg-base-100 shadow-xl  mb-10">
             <figure><img className='w-full' src= {blog.cover_image} alt="Shoes" /></figure>
             <div className="card-body">
                 <div className='flex justify-between'>
@@ -21,11 +21,11 @@ const SingleBlogs = ({ blog }) => {
                     </div>
                     <div className=' text-gray-500 flex gap-3 items-center'>
                         <p className=' font-medium text-xl '>{blog.read_time}</p>
-                        <FontAwesomeIcon icon={faBookmark} />
+                        <FontAwesomeIcon onClick={()=> addToSideBar(blog)} icon={faBookmark} />
                     </div>
                 </div>
                 <h1 className=' text-4xl font-bold mt-4'>{blog.title}</h1>
-                 <p className=' text-gray-500'>#{blog.tags[0]}  #{blog.tags[1]}</p>
+                 <p className=' my-4 text-gray-500'>#{blog.tags[0]}  #{blog.tags[1]}</p>
                  <a className='  text-purple-600' href="Mark"><u>Mark as read</u></a>
             </div>
         </div>

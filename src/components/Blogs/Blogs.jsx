@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SingleBlogs from '../SingleBlogs/SingleBlogs';
 
-const Blogs = () => {
+const Blogs = ({addToSideBar}) => {
      const [blogs,setBlogs]= useState([]);
 
      useEffect(()=>{
@@ -11,9 +11,9 @@ const Blogs = () => {
      },[])
 
     return (
-        <div className='w-[70%]'>
+        <div className='w-[70%] gap-10'>
              {
-                blogs.map(blog => <SingleBlogs blog={blog}></SingleBlogs>)
+                blogs.map(blog => <SingleBlogs addToSideBar={addToSideBar} blog={blog}></SingleBlogs>)
              }
         </div>
     );
