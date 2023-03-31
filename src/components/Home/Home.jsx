@@ -4,13 +4,15 @@ import Sidebar from '../Sidebar/Sidebar';
 
 const Home = () => {
 
-    const [title,setTitle]= useState([])
+    const [title,setTitle]= useState([]);
 
+    
     const addToSideBar = (blog)=>{
-        const titleName = blog.title;
-        setTitle(titleName)  
-
+      const mrk = blog.title
+        setTitle(mrk=>[...mrk,blog.title])
     }
+
+     
 
     return (
         <div className='flex p-7 gap-5'>

@@ -7,7 +7,7 @@
        },
        "title": "Introduction to Machine Learning",
        "cover_image": "https://media.istockphoto.com/id/966248982/photo/robot-with-education-hud.webp?s=612x612&w=is&k=20&c=7XZqPrAflY4H7ifci-tt9YkCsaY9ieaiPJEIovoeQbQ=",
-       "read_time": "10 minutes",
+       "read_time": 10 ,
        "publish_date": "March 4,2023 (28 Days ago)",
        "tags": [
           "machine learning",
@@ -22,7 +22,7 @@
        },
        "title": "Future of Virtual Reality",
        "cover_image": "https://media.istockphoto.com/id/1324380506/photo/people-with-vr-grasses-playing-virtual-reality-game-future-digital-technology-and-3d-virtual.jpg?s=612x612&w=is&k=20&c=jNIKSuFWR0VERhxj3O_occkiNl9fKVM_51-k_-sD3vY=",
-       "read_time": "5 minutes",
+       "read_time": 5 ,
        "publish_date": "March 8,2023 (24 Days ago)",
        "tags": [
           "virtual reality",
@@ -37,7 +37,7 @@
        },
        "title": "Apple Machine Learning Journal",
        "cover_image": "https://media.istockphoto.com/id/1329808534/photo/communication-network-concept-robot-hand-3d-rendering.jpg?s=612x612&w=is&k=20&c=_rcAhqMpXMSDB9sWO0Brl00MFAUdc-OlDVSDvIypXS8=",
-       "read_time": "8 minutes",
+       "read_time": 8  ,
        "publish_date": "February 25 (34 Days ago)",
        "tags": [
           "machine learning",
@@ -52,7 +52,7 @@
        },
        "title": "Difference between Software Development, Web Development and App Development",
        "cover_image": "https://media.istockphoto.com/id/1474292406/photo/image-of-asian-man-designer-developing-a-new-app-design-and-user-interface-at-creative-office.jpg?s=612x612&w=is&k=20&c=Vz4dtz29idNxYArJug_e4LSWZcJ3k1kC24kyUlyPGYI=",
-       "read_time": "6 minutes",
+       "read_time": 6,
        "publish_date": "January 19 (2 Month ago)",
        "tags": [
           "software",

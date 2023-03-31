@@ -6,7 +6,6 @@ import React from 'react';
 
 
 const SingleBlogs = ({ blog ,addToSideBar}) => {
-    console.log(blog)
     return (
         <div className="card w-full bg-base-100 shadow-xl  mb-10">
             <figure><img className='w-full' src= {blog.cover_image} alt="Shoes" /></figure>
@@ -20,7 +19,7 @@ const SingleBlogs = ({ blog ,addToSideBar}) => {
                         </div>
                     </div>
                     <div className=' text-gray-500 flex gap-3 items-center'>
-                        <p className=' font-medium text-xl '>{blog.read_time}</p>
+                        <p className=' font-medium text-xl '>{blog.read_time} minutes</p>
                         <FontAwesomeIcon onClick={()=> addToSideBar(blog)} icon={faBookmark} />
                     </div>
                 </div>
