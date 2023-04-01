@@ -11,7 +11,7 @@ const Blogs = ({ addToSideBar ,handleReadTime}) => {
    }, [])
 
    return (
-      <div className='w-[70%] gap-10'>
+      <div className='lg:w-[70%] gap-10'>
          {
             blogs.map(blog => <SingleBlogs key={blog.id} handleReadTime={handleReadTime} addToSideBar={addToSideBar} blog={blog}></SingleBlogs>)
          }

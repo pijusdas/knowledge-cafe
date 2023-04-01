@@ -1,12 +1,6 @@
 
 
-
-
 const Sidebar = ({ title }) => {
-
-   
-
-    
 
     return (
 
